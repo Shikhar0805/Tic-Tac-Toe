@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css"/>
+    <div id="nav" class="bb">
+        <div class="text1" style="text-decoration: underline;">The Tic Tac Toe Game </div>
+        <div id="mode">
+            <span class="modetxt text1">Mode:</span>
+        <button class="options light" >Light</button>
+        </div>
+        <button class="options" id="reset">Reset</button>
+    </div>
+    <div class="gamecont">
+        <div id="grid">
+            <div class="box br bb" ></div>
+            <div class="box br bb"></div>
+            <div class="box bb"></div>
+            <div class="box br bb"></div>
+            <div class="box br bb"></div>
+            <div class="box bb"></div>
+            <div class="box br"></div>
+            <div class="box br"></div>
+            <div class="box"></div>
+        </div>
+        <div id="turns">
+            <p class="player" id="player1" ></p>
+            <p class="player" >Score:</p>
+            <div class="scorestyle ">
+                <div class="style  bl  bt">Player 1</div>
+                <div class="style  bl br bt">Player 2</div>
+                <div class="style bb bl  bt" id="s1">0</div>
+                <div class="style bb bl br bt" id="s2">0</div>
+            </div>
+            <button class="options start ">Start Over</button>
+
+        </div>
+    </div>
+    
+  <script src="game.js"></script>  
+</body>
+</html>
